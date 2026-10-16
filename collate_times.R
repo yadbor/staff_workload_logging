@@ -230,7 +230,7 @@ clean_dept <- tribble(
 
 #### Read data ####
 
-files <- list.files(here::here(), pattern = "*.xls?", full.names = TRUE)
+files <- list.files(here::here("data"), pattern = "*.xls?", full.names = TRUE)
 
 path <- files[[2]]
 
